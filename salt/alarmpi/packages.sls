@@ -1,3 +1,4 @@
 packages:
   pkg.latest:
-    - name: ntp
+    - pkgs:
+      - ntp

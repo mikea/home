@@ -1,4 +1,4 @@
 base:
-  '*':
-    - packages
-    - git_home
+  'alarmpi':
+    - alarmpi/packages
+    - alarmpi/git_home
