@@ -3,3 +3,4 @@ packages:
     - pkgs:
       - ntp
       - tmux
+      - git
