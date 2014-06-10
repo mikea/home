@@ -4,6 +4,7 @@ packages:
       - ntp
       - tmux
       - git
+      - nodejs
 
 ntp:
   systemd:
