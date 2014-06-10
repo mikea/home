@@ -4,3 +4,7 @@ packages:
       - ntp
       - tmux
       - git
+
+ntp:
+  systemd:
+    - enabled
