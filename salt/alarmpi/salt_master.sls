@@ -3,7 +3,9 @@ salt:
     - latest
 
 salt-master:
-  - service.enabled
+  service:
+    - running
+    - enable: True
 
 /usr/bin/salt-call -l quiet state.highstate:
   cron.present:

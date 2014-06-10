@@ -7,4 +7,6 @@ packages:
       - nodejs
 
 ntp:
-  - service.enabled
+  service:
+    - running
+    - enable: True
