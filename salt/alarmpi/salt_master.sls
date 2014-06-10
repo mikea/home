@@ -10,4 +10,4 @@ salt-master:
   cron.present:
     - user: root
     - minute: random
-    - hour: 4 5
+    - hour: 4
