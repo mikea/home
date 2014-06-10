@@ -6,7 +6,7 @@ packages:
       - git
       - nodejs
 
-ntp:
+ntpd:
   service:
     - running
     - enable: True
