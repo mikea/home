@@ -7,5 +7,4 @@ packages:
       - nodejs
 
 ntp:
-  systemd:
-    - enabled
+  - service.enabled
