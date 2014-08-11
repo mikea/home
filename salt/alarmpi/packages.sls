@@ -5,6 +5,8 @@ packages:
       - tmux
       - git
       - nodejs
+      - avahi
+      - nss-mdns
 
 ntpd:
   service:
