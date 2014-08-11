@@ -1,7 +1,3 @@
-salt:
-  pkg:
-    - latest
-
 salt-master:
   service:
     - running
