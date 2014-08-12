@@ -1,5 +1,5 @@
 # packages useful for ssh-ing into computer and making changes
-packages:
+interactive_packages:
   pkg.latest:
     - pkgs:
       - tmux
