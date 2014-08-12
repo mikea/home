@@ -1,0 +1,8 @@
+ileserver_backend:
+  - git
+gitfs_remotes:
+  - https://github.com/mikea/home.git
+gitfs_root: salt
+gitfs_provider: pygit2
+log_file: /var/log/salt/master
+log_level_logfile: info

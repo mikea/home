@@ -3,8 +3,9 @@ salt-master:
     - running
     - enable: True
 
-/usr/bin/salt-call -l quiet state.highstate:
-  cron.present:
+/etc/salt/master:
+    file.managed:
     - user: root
-    - minute: random
-    - hour: 4
+    - group: root
+    - mode: 644
+    - source: salt://alarmpi/files/salt_master
