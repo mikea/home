@@ -12,3 +12,7 @@ ntpd:
   service:
     - running
     - enable: True
+
+avahi-daemon.service:
+  service:
+    - running
