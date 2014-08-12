@@ -4,12 +4,19 @@ packages:
       - ntp
       - avahi
       - nss-mdns
+      - docker
 
 ntpd:
   service:
     - running
     - enable: True
 
-avahi-daemon.service:
+avahi-daemon:
   service:
     - running
+    - enable: True
+
+docker:
+  service:
+    - running
+    - enable: True
