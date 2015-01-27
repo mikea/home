@@ -1,4 +1,4 @@
-ileserver_backend:
+fileserver_backend:
   - git
 gitfs_remotes:
   - https://github.com/mikea/home.git
